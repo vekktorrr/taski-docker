@@ -80,7 +80,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/taski_gateway:latest
           platforms: linux/amd64,linux/arm64
-    frontend_tests:
+  frontend_tests:
     runs-on: ubuntu-latest
 
     steps:
